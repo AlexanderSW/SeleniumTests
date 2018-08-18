@@ -19,6 +19,9 @@ public class GeneralPage{
     @FindBy(className = "radius")
     WebElement submitButton;
 
+    @FindBy(id = "flash")
+    WebElement errorMassege;
+
     public GeneralPage(WebDriver driver){PageFactory.initElements(driver,this);
     }
 }
