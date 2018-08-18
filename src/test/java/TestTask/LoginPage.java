@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class GeneralPage{
+public class LoginPage{
 
     @FindBy(css = "a[href=\"/login\"]")
     WebElement formAuthentication;
@@ -22,6 +22,6 @@ public class GeneralPage{
     @FindBy(id = "flash")
     WebElement errorMassege;
 
-    public GeneralPage(WebDriver driver){PageFactory.initElements(driver,this);
+    public LoginPage(WebDriver driver){PageFactory.initElements(driver,this);
     }
 }

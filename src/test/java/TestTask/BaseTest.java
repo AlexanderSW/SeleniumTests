@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class BaseTestTask {
+public class BaseTest {
     public static WebDriver driver;
 
     public void open(String url) {driver.get(url);}

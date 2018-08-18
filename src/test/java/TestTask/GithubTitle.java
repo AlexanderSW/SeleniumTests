@@ -5,7 +5,7 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertTrue;
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
 
-public class GithubTitle extends BaseTestTask {
+public class GithubTitle extends BaseTest {
 
     GitHubPage page = new GitHubPage(driver);
 

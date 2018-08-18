@@ -10,9 +10,9 @@ import java.io.IOException;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
 
-public class LoginNegativeTest extends BaseTestTask {
+public class LoginNegativeTest extends BaseTest {
 
-    GeneralPage page = new GeneralPage(driver);
+    LoginPage page = new LoginPage(driver);
 
     @Test
     public void negativeTest() throws IOException, InterruptedException {
